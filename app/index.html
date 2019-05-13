@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UPQODE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css">
+    <!-- slick-slider -->
+    <link rel="stylesheet" href="libs/slick/slick.css">
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="libs/font-awesome/css/all.min.css">
+	
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto col-sm-auto col-md-auto col-lg-auto">
+                    <div class="header__logo">
+                        <a href="#">UP<span>QODE</span></a>
+                    </div>
+                </div>
+                <div class="col-auto col-sm-auto col-md-auto col-lg-auto">
+                    <div class="header__mobile-menu">
+                        <a id="menu" href="#" >&#9776;</a>
+                    </div>
+
+                    <div class="header__menu">
+                        <nav class="header__nav">
+                            <a href="#home" class="header__nav__item nav nav_active">Home</a>
+                            <div class="header__nav__dropdown">
+                                <a href="" class="header__nav__item">Products</a>
+                                <div class="header__nav__dropdown-content">
+                                    <a href="#"><i class="fas fa-angle-right"></i> Name Surname</a>
+                                    <a href="#"><i class="fas fa-angle-right"></i> Nelson Noa Chris</a>
+                                    <div class="header__nav__dropdown__2">
+                                        <a href="#"><i class="fas fa-angle-double-right"></i> Name Surname</a>
+                                        <div class="header__nav__dropdown-content__2">
+                                            <a href="#"><i class="fas fa-angle-right"></i> Name Surname</a>
+                                            <a href="#"><i class="fas fa-angle-right"></i> Nelson Noa Chris</a>
+                                            <a href="#"><i class="fas fa-angle-double-right"></i> Name Surname</a>
+                                            <a href="#"><i class="fas fa-angle-right"></i> Nelson Noa</a>
+                                            <a href="#"><i class="fas fa-angle-right"></i> Nelson Noa Chris</a>
+                                        </div>
+                                    </div>
+                                    <a href="#"><i class="fas fa-angle-right"></i> Nelson Noa</a>
+                                </div>
+                            </div>
+                            <a href="#about" class="header__nav__item nav">About</a>
+                            <a href="#contact" class="header__nav__item nav">Contact</a>
+                        </nav>
+                        <div class="header_search">
+                            <input type="text">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider page-section" id="home">
+        <div class="slider__container">
+            <div class="slider__item">
+                <img src="img/slide-1.jpg" alt="">
+                <div class="slider__item__mask">
+                    <h2>Creative <span>Design Agency</span></h2>
+                    <p>
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit
+                        <br> non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.
+                    </p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <img src="img/slide-1.jpg" alt="">
+                <div class="slider__item__mask">
+                    <h2>Creative <span>Design Agency</span></h2>
+                    <p>
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit
+                        <br> non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.
+                    </p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <img src="img/slide-1.jpg" alt="">
+                <div class="slider__item__mask">
+                    <h2>Creative <span>Design Agency</span></h2>
+                    <p>
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit
+                        <br> non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="slider__btn">
+            <div class="slider__arrows__left" id="btn-prev">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            <div class="slider__arrows__right" id="btn-next">
+                <i class="fas fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="slider__dots"></div>
+    </section>
+
+    <main>
+        <div class="container">
+            <section class="home">
+                <div class="home__header">
+                    <h2 class="home__header__title">
+                        Why <span>Choose Us</span>
+                    </h2>
+                    <div class="home__header__description">
+                        Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis.<br>
+                        Nullam at scelerisque tellus mattis volutpat rhoncus,
+                    </div>
+                </div>
+                <div class="home__content">
+                    <div class="row justify-content-center justify-content-sm-between">
+                        <div class="col-auto col-xs-auto col-md-auto col-lg-auto col-xl-auto">
+                            <div class="home__content__item">
+                                <div class="home__content__item__icon">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="home__content__item__description">
+                                    <div class="home__content__item__description__default">
+                                        <h3>YOUR TITLE</h3>
+                                        <p>
+                                            Duis bib endum diam non erat facilaisis en ter tincidunt. Duis
+                                        </p>
+                                    </div>
+                                    <div class="home__content__item__description__hover">
+                                        <h3>SEE MORE</h3>
+                                        <div class="description__hover__icon">
+                                            <div class="description__hover__icon__btn"><i class="fas fa-link"></i></div>
+                                            <div class="description__hover__icon__btn"><i class="fas fa-search-plus"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-auto col-xs-auto col-md-auto col-lg-auto col-xl-auto">
+                            <div class="home__content__item">
+                                <div class="home__content__item__icon">
+                                    <i class="far fa-comment-dots"></i>
+                                </div>
+                                <div class="home__content__item__description">
+                                    <div class="home__content__item__description__default">
+                                        <h3>YOUR TITLE</h3>
+                                        <p>
+                                            Duis bib endum diam non erat facilaisis en ter tincidunt. Duis
+                                        </p>
+                                    </div>
+                                    <div class="home__content__item__description__hover">
+                                        <h3>SEE MORE</h3>
+                                        <div class="description__hover__icon">
+                                            <div class="description__hover__icon__btn"><i class="fas fa-link"></i></div>
+                                            <div class="description__hover__icon__btn"><i class="fas fa-search-plus"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-auto col-xs-auto col-md-auto col-lg-auto col-xl-auto">
+                            <div class="home__content__item">
+                                <div class="home__content__item__icon">
+                                    <i class="fas fa-laptop"></i>
+                                </div>
+                                <div class="home__content__item__description">
+                                    <div class="home__content__item__description__default">
+                                        <h3>YOUR TITLE</h3>
+                                        <p>
+                                            Duis bib endum diam non erat facilaisis en ter tincidunt. Duis
+                                        </p>
+                                    </div>
+                                    <div class="home__content__item__description__hover">
+                                        <h3>SEE MORE</h3>
+                                        <div class="description__hover__icon">
+                                            <div class="description__hover__icon__btn"><i class="fas fa-link"></i></div>
+                                            <div class="description__hover__icon__btn"><i class="fas fa-search-plus"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-auto col-xs-auto col-md-auto col-lg-auto col-xl-auto">
+                            <div class="home__content__item">
+                                <div class="home__content__item__icon">
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="home__content__item__description">
+                                    <div class="home__content__item__description__default">
+                                        <h3>YOUR TITLE</h3>
+                                        <p>
+                                            Duis bib endum diam non erat facilaisis en ter tincidunt. Duis
+                                        </p>
+                                    </div>
+                                    <div class="home__content__item__description__hover">
+                                        <h3>SEE MORE</h3>
+                                        <div class="description__hover__icon">
+                                            <div class="description__hover__icon__btn"><i class="fas fa-link"></i></div>
+                                            <div class="description__hover__icon__btn"><i class="fas fa-search-plus"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-auto col-xs-auto col-md-auto col-lg-auto col-xl-auto">
+                            <div class="home__content__item">
+                                <div class="home__content__item__icon">
+                                    <i class="far fa-flag"></i>
+                                </div>
+                                <div class="home__content__item__description">
+                                    <div class="home__content__item__description__default">
+                                        <h3>YOUR TITLE</h3>
+                                        <p>
+                                            Duis bib endum diam non erat facilaisis en ter tincidunt. Duis
+                                        </p>
+                                    </div>
+                                    <div class="home__content__item__description__hover">
+                                        <h3>SEE MORE</h3>
+                                        <div class="description__hover__icon">
+                                            <div class="description__hover__icon__btn"><i class="fas fa-link"></i></div>
+                                            <div class="description__hover__icon__btn"><i class="fas fa-search-plus"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about page-section">
+                <div class="row justify-content-between align-items-end">
+                    <div class="col-md-6 col-lg-6 col-xl-6">
+                        <div class="about__header">
+                            <h2 class="about__header__title">
+                                <span>About</span> Us
+                            </h2>
+                            <div class="about__header__description">
+                                Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euism<br>
+                                Nullam at scelerisque tellus mattis volutpat rhoncus,
+                            </div>
+                        </div>
+                        <div class="about__content">
+                            <div class="about__content__description">
+                                Nullam at scelerisque tellus. Nulla feugiat iaculis ante, non tincidunt ligula scelerisque a. Vestibulum accumsan tincidunt odio vel finibus. Phasellus vestibulum lobortis ligula ut volutpat. Maecenas vitae nibh vel purus mollis semper. Nullam tempus feugiat mi id semper. Pellentesque ac posuere augue, vitae mollis enim. Etiam et ullamcorper dolor, a hendrerit quam.
+                            </div>
+                            <div class="about__content__skillbar">
+                                <div class="about__content__skillbar__item">
+                                    <div class="about__content__skillbar__item__top">
+                                        <div class="about__content__skillbar__item__top__title">
+                                            PHOTOSHOP
+                                        </div>
+                                        <div class="about__content__skillbar__item__top__percent">
+                                            79%
+                                        </div>
+                                    </div>
+                                    <div class="about__content__skillbar__item__bar" data-percent="79%">
+                                        <div class="about__content__skillbar__item__bar__progress"></div>
+                                    </div>
+                                </div>
+
+                                <div class="about__content__skillbar__item">
+                                    <div class="about__content__skillbar__item__top">
+                                        <div class="about__content__skillbar__item__top__title">
+                                            HTML/CSS
+                                        </div>
+                                        <div class="about__content__skillbar__item__top__percent">
+                                            90%
+                                        </div>
+                                    </div>
+                                    <div class="about__content__skillbar__item__bar" data-percent="90%">
+                                        <div class="about__content__skillbar__item__bar__progress"></div>
+                                    </div>
+                                </div>
+
+                                <div class="about__content__skillbar__item">
+                                    <div class="about__content__skillbar__item__top">
+                                        <div class="about__content__skillbar__item__top__title">
+                                            JAVASCRIPT
+                                        </div>
+                                        <div class="about__content__skillbar__item__top__percent">
+                                            69%
+                                        </div>
+                                    </div>
+                                    <div class="about__content__skillbar__item__bar" data-percent="69%">
+                                        <div class="about__content__skillbar__item__bar__progress"></div>
+                                    </div>
+                                </div>
+
+                                <div class="about__content__skillbar__item">
+                                    <div class="about__content__skillbar__item__top">
+                                        <div class="about__content__skillbar__item__top__title">
+                                            WORDPRESS
+                                        </div>
+                                        <div class="about__content__skillbar__item__top__percent">
+                                            92%
+                                        </div>
+                                    </div>
+                                    <div class="about__content__skillbar__item__bar" data-percent="92%">
+                                        <div class="about__content__skillbar__item__bar__progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4">
+                        <img src="img/ipad.png" alt="ipad">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <section id="contact" class="contact page-section">
+        <div class="contact__header">
+            <h2 class="contact__header__title">
+                Get in <span>Touch</span>
+            </h2>
+        </div>
+        <div class="contact__header__description">
+            Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis.<br>
+            Nullam at scelerisque tellus mattis volutpat rhoncus,
+        </div>
+
+        <div class="contact__container">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-10 col-lg-10">
+                        <div class="contact__container__content">
+                            <div class="row justify-content-sm-center">
+                                <div class="col-md-auto col-sm-auto col-lg-auto">
+                                    <div class="contact__container__content__left">
+                                        <form class="form">
+                                            <div class="form__inputs">
+                                                <div class="form__inputs__left">
+                                                    <input type="text" name="name" placeholder="Full Name" required>
+                                                </div>
+                                                <div class="form__inputs__right">
+                                                    <input type="text" name="email" placeholder="E-mail Adress" required>
+                                                    <i class="fas fa-sort-down"></i>
+                                                </div>
+                                            </div>
+                                            <textarea required class="form__textarea" placeholder="Message"></textarea>
+                                            <div class="form__footer">
+                                                <div class="form__footer__check">
+                                                    <input type="checkbox" name="check" id="check">
+                                                    <label for="check">I like your company</label>
+                                                </div>
+                                                <div class="form__footer__btn">
+                                                    <button type="submit">SEND</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-sm-auto col-md-auto col-lg-auto ">
+                                    <div class="contact__container__content__right">
+                                        <div class="contact__container__content__right__inform">
+                                            69/A, Some Street Name<br>
+                                            Your City, code 01234<br>
+                                            Country Name<br>
+                                            <br>
+                                            +880 123 456 78 98<br>
+                                            +860 987 648 74 95<br>
+                                            <br>
+                                            company@mail.com<br>
+                                            sales@mail.com<br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__copyright">
+            Copyright © Company. All Rights Reserved  2016
+        </div>
+        <div class="footer__social">
+            <ul>
+                <li class="facebook"><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/googleplus.png" alt="googleplus"></a></li>
+                <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/dribbble.png" alt="dribbble"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
